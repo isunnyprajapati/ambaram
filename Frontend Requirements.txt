@@ -1,0 +1,16 @@
+Tabs: 
+Home (Live tracker at top, Map, alert banner, Status cards), 
+About, 
+AI Forecast
+Data Explorer (Tables, Filters, Raw Imagery)
+Service Health (Service status, Logs)
+Team 
+Contact (Customer Support)
+
+Colour Scheme: Dark Transparency with Blue. Blue and black gradient cards when you using at many places of websites
+
+Sign up system for the alert button through email and/or phone number.
+
+Font: Roboto
+
+

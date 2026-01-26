@@ -1,0 +1,219 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./stormy-clouds.jpg);
+    background-size: cover;
+    /* background-color: rgba(0, 0, 0, 1); */
+    margin: 0%;
+}
+
+.main-body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./stormy-clouds.jpg);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* --- Header section --- */
+
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-content: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    height: 60px;
+    gap: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: inherit;
+}
+#amb{
+    color: antiquewhite;
+    font-size: 1.9rem;
+}
+
+.menus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    height: inherit;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.2rem;
+}
+.btn:hover {
+    /* transform: scale(1.1); */
+    color: rgba(255, 255, 255, 1);
+}
+.contacts {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    height: inherit;
+}
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+.cont:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.cont img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+
+/* ----Dropdown---- */
+
+
+.dataexp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: inherit;
+}
+.dataexp-cont {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60px; 
+    /* background-color: rgba(119, 136, 153, 0.3); */
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.dataexp:hover .dataexpbtn{
+    transform: scale(1.1);
+    color: rgba(255, 255, 255, 1)
+}
+.dataexp:hover .dataexp-cont {
+    display: flex;
+}
+
+.dataexp-cont a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.1rem;
+}
+
+.dataexp-cont div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 180px;
+    border: 2px solid rgba(119, 136, 153, 0.6);
+    border-radius: 15px;
+    box-shadow: 3px 5px 10px black;
+    /* background-color: rgba(2, 65, 124, 0.3); */
+    background-color: rgba(119, 136, 153, 0.3);
+}
+.dataexp-cont div:hover {
+    /* cursor: pointer; */
+    /* background-color: rgba(119, 136, 153, 0.6); */
+    background-color: rgba(23, 63, 93, 0.6);
+}
+.dataexp-cont div:hover a {
+    color: rgba(255, 255, 255, 1);
+}
+
+
+/* --- Content body --- */
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 12vh;
+    gap: 70px;
+}
+
+p {
+    color: whitesmoke;
+}
+
+.content-1 {
+    display: grid;
+    grid-template-rows: auto auto auto auto ;
+    justify-content: start;
+}
+
+.content-2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: end;
+    gap: 20px;
+}
+
+#secure {
+    grid-row: 2 / 3;
+}
+#high {
+    grid-row: 2 / 3;
+}
+#team {
+    grid-row: 3 / 4;
+}
+#support {
+    grid-row: 3 / 4;
+}
+
+.content-1 div {
+    display: flex;
+    align-items: center;
+}
+
+.content-2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(119, 136, 153, 0.3);
+    border-radius: 30px;
+    height: 100px;
+    color: white;
+    font-size: 0.9rem;
+}
+#inov {
+    display: flex;
+    align-items: center;
+}
+#inov p {
+    font-size: 20px;
+    background-color: rgb(23, 63, 93);
+    border-radius: 30px;
+    padding: 10px;
+}
+#intro {
+    font-size: 50px;
+    padding: 0px;
+    color: white;
+}
+#lorem p {
+    color: darkgray;
+}
+#got {
+    color: beige;
+}
