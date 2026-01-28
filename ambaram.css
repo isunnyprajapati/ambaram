@@ -1,7 +1,7 @@
 body {
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('assets/stormy-clouds.jpg'); */
     /* background-size: cover; */
-    /* background-color: rgba(0, 0, 0, 1); */
+    background-color: rgba(25, 25, 25, 0.5);
     margin: 0%;
 }
 
@@ -218,18 +218,19 @@ p {
     align-items: center;
 }
 #inov p {
-    font-size: 20px;
+    font-size: 1.25rem;
     background-color: rgb(23, 63, 93);
     border-radius: 30px;
     padding: 10px;
 }
 #intro {
-    font-size: 50px;
+    font-size: 3.3rem;
     padding: 0px;
     color: white;
 }
 #lorem p {
     color: darkgray;
+    font-size: 1rem;
 }
 #got {
     color: beige;
