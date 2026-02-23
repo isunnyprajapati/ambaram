@@ -13,7 +13,7 @@ a
 }
 
 
-/* --- Header section --- */
+/* --- header section --- */
 
 
 .header 
@@ -53,6 +53,7 @@ a
     align-items: center;
     gap: 25px;
     height: inherit;
+    text-align: center;
 }
 
 .btn 
@@ -110,7 +111,7 @@ a
 }
 
 
-/* ---- Dropdown ---- */
+/* ---- dropdown ---- */
 
 
 .dropdown 
@@ -192,6 +193,7 @@ a
     font-size: 1rem;
     margin-right: 10px;
     opacity: 0.7;
+    text-align: center;
 }
 
 .dropdown:hover span 
@@ -202,7 +204,7 @@ a
 }
 
 
-/* --- Content body --- */
+/* --- content body --- */
 
 
 .container 
@@ -234,6 +236,7 @@ a
 {
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 #inov p 
@@ -250,6 +253,7 @@ a
     font-size: 6rem;
     color: white;
     text-shadow: 3px 5px 10px rgba(0, 0, 0, 0.7);
+    text-align: center;
 }
 
 #sub-intro 
@@ -258,12 +262,14 @@ a
     padding: 0px;
     color: white;
     text-shadow: 3px 5px 10px rgba(0, 0, 0, 0.7);
+    text-align: center;
 }
 
 #lorem 
 {
     display: flex;
     padding: 30px;
+    text-align: center;
 }
 
 #lorem p 
@@ -283,49 +289,55 @@ a
 /* --- map --- */
 
 
-.dashboard 
+.dashboard
 {
-    height: 400px;
+    height: 70vh;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-left: 12vw;
     padding-right: 12vw;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: rgba(20, 20, 20, 0.5);
+    background-color: rgba(20, 20, 20, 1);
 }
 
-.dashboard div 
+.dashboard div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.werhere
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: whitesmoke;
+    color: rgba(245, 245, 245, 1);
     background-color: rgba(20, 20, 20, 0.7);
-    font-size: 1.4rem;
-    height: 50px;
-    width: 12%;
-    left: 43.5%;
+    font-size: 1.2rem;
+    height: 5%;
+    width: 11%;
     margin-top: 5px;
     position: absolute;
+    z-index: 100;
     box-shadow: 2px 5px 10px rgba(20, 20, 20, 0.6);
     text-shadow: 3px 5px 10px rgba(0, 0, 0, 1);
     border-radius: 30px;
-    font-size: 1.5rem;
+    text-align: center;
 }
 
 .dashboard iframe 
 {
-    height: 400px;
+    height: 45vh;
     width: 100%;
     opacity: 0.7;
-    position: relative;
     border-radius: 10px;
+    position: relative;
 }
 
 
-/* --- about section --- */
+/* --- about --- */
 
 
 .about-section 
@@ -462,4 +474,5 @@ li
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
