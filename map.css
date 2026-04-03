@@ -12,7 +12,8 @@
     border-radius: 20px;
     background-color: rgba(10, 10, 10, 0.3);
     border: 1px solid rgba(100, 100, 100, 0.3);
-    /* box-shadow: 0 0 10px rgba(10, 10, 10, 0.5); */
+    backdrop-filter: blur(2px);
+    position: relative;
 }
 
 .dashboard div {
@@ -26,21 +27,15 @@
 
 .werhere
 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     color: rgba(245, 245, 245, 1);
-    background-color: rgba(20, 20, 20, 0.7);
     font-size: 1.2rem;
     height: 5%;
     width: 11%;
-    margin-top: 5px;
     position: absolute;
+    top: 4%;
     z-index: 100;
-    box-shadow: 2px 5px 10px rgba(20, 20, 20, 0.6);
     text-shadow: 3px 5px 10px rgba(0, 0, 0, 1);
-    border-radius: 30px;
     text-align: center;
 }
 
