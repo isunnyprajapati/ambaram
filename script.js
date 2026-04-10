@@ -10,8 +10,7 @@ window.addEventListener('scroll', function () {
         header.style.border = '1px solid rgba(50, 50, 50, 0.3)';
         // header.style.boxShadow = '0 5 10px rgba(10, 10, 10, 0.5)';
         
-    }
-    else {
+    } else {
         header.style.backgroundColor = 'rgba(10, 10, 10, 0)';
         header.style.border = '1px solid rgba(50, 50, 50, 0)';
     }
